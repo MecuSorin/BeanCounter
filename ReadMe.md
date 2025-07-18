@@ -43,7 +43,7 @@ The application allows to load a custom list of items by providing the path to t
 Sample of input file:
 ```
 cookie byte|green
-milk gulp|white
+milk gulp|#FAFF0A
 ```
 2. Click on the buttons and discover probabilities.
 
