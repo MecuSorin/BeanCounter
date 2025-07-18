@@ -10,6 +10,7 @@ BeanCounter is a helper tool to count M&Ms :). You can see the chances for a fol
 
 - Left click on the left side buttons increments that item
 - Right click on the left general area undo the last add
+- The matrix on the right should be read as if my current item is the one on the row, then probability that the item on the column to happen next is the value in the cell
 - Extensible architecture for custom analysis:
     - the app generates an ordered log file of the succession that can be interpreted as a Markov chain with the right tool to give an image on how items are occuring
 
