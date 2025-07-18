@@ -4,7 +4,7 @@ BeanCounter is a helper tool to count M&Ms :). You can see the chances for a fol
 
 ## Screenshot
 
-![BeanCounter Application](Screenshot v1.0.0.png)
+![BeanCounter Application](Screenshot_v1.0.0.png)
 
 ## Features
 
