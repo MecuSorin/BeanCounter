@@ -1,7 +1,11 @@
 # BeanCounter
 
 BeanCounter is a helper tool to count M&Ms :). You can see the chances for a follow up color.
+
+## Screenshot
+
 ![BeanCounter Application](Screenshot v1.0.0.png)
+
 ## Features
 
 - Left click on the left side buttons increments that item
