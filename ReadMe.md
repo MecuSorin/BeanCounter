@@ -1,7 +1,7 @@
 # BeanCounter
 
 BeanCounter is a helper tool to count M&Ms :). You can see the chances for a follow up color.
-
+[Trade Flow CheckList Application](Screenshot v1.0.0.png)
 ## Features
 
 - Left click on the left side buttons increments that item
