@@ -97,18 +97,8 @@ let initModel () =
                             else None)
                     |> Array.toList
         else [
-            { name = "dStraight"; htmlColor = "#FF0000" }
-            { name = "d1"; htmlColor = "#FF0000" }
-            { name = "d2"; htmlColor = "#FF0000" }
-            { name = "d3"; htmlColor = "#FF0000" }
-            { name = "d4"; htmlColor = "#FF0000" }
-            { name = "d5"; htmlColor = "#FF0000" }
-            { name = "uStraight"; htmlColor = "#00FF00" }
-            { name = "u1"; htmlColor = "#00FF00" }
-            { name = "u2"; htmlColor = "#00FF00" }
-            { name = "u3"; htmlColor = "#00FF00" }
-            { name = "u4"; htmlColor = "#00FF00" }
-            { name = "u5"; htmlColor = "#00FF00" }
+            { name = "cookie"; htmlColor = "Maroon" }
+            { name = "milk"; htmlColor = "White" }
         ]
     updateColors eventTypes
     eventsDefaultOrder <-
@@ -327,7 +317,7 @@ type MainWindow() as this =
     do
         let eventsFileNameStem = 
             if File.Exists eventsFilePath
-                then System.IO.Path.GetFileNameWithoutExtension eventsFilePath
+                then " - " + System.IO.Path.GetFileNameWithoutExtension eventsFilePath
                 else ""
         base.Title <- "Mecu Statistics" + eventsFileNameStem
         base.MinWidth <- 700.0
